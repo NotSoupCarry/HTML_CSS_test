@@ -1,0 +1,80 @@
+/* Imposta il colore del testo e lo sfondo dell'intera pagina */
+body {
+    color: #333;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 20px;
+}
+
+/* Stile per un contenitore principale */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #007BFF;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+/* Stile per un titolo */
+h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Stile per un paragrafo */
+p {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+/* Un pulsante con vari stili */
+button {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Esempio di flexbox per allineare gli elementi */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Elementi interni del flex container */
+.flex-item {
+    width: 30%;
+    height: 100px;
+    background-color: #e0e0e0;
+    border: 2px solid #333;
+    text-align: center;
+    line-height: 100px;
+    font-size: 18px;
+}
+
+/* Posizionamento assoluto per un box sovrapposto */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+}
